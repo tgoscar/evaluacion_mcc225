@@ -1,0 +1,13 @@
+experimento,modelo,caption,i2t_R@1,i2t_R@5,i2t_R@10,t2i_R@1,t2i_R@5,t2i_R@10,score_diag_promedio
+CLIP_caption_2,CLIP,caption_2,0.45,0.825,0.85,0.625,0.875,0.875,0.3291
+CLIP_caption_3,CLIP,caption_3,0.5,0.875,0.925,0.4,0.7,0.825,0.3442
+CLIP_caption_4,CLIP,caption_4,0.475,0.8,0.9,0.55,0.8,0.85,0.3333
+CLIP_baseline_desplazado,CLIP,caption_2_desplazado,0.0,0.05,0.175,0.0,0.05,0.125,0.2777
+CLIP-L_caption_2,CLIP-L,caption_2,0.65,0.8,0.875,0.75,1.0,1.0,0.3134
+CLIP-L_caption_3,CLIP-L,caption_3,0.65,0.875,0.975,0.6,0.875,0.925,0.3255
+CLIP-L_caption_4,CLIP-L,caption_4,0.575,0.85,0.975,0.675,0.9,0.95,0.3184
+CLIP-L_baseline_desplazado,CLIP-L,caption_2_desplazado,0.0,0.15,0.25,0.0,0.075,0.225,0.2418
+LongCLIP_caption_2,LongCLIP,caption_2,0.675,0.875,0.95,0.875,0.95,1.0,0.2959
+LongCLIP_caption_3,LongCLIP,caption_3,0.725,0.925,0.975,0.575,0.875,0.975,0.3134
+LongCLIP_caption_4,LongCLIP,caption_4,0.675,0.875,0.95,0.775,0.95,1.0,0.301
+LongCLIP_baseline_desplazado,LongCLIP,caption_2_desplazado,0.0,0.1,0.225,0.0,0.1,0.175,0.2111

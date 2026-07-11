@@ -1,0 +1,10 @@
+prueba,modelo,entrada_original,variante,delta_rank_promedio,casos_que_empeoran,casos_que_mejoran,cambio_observado
+A_sensibilidad_prompt,CLIP,caption_2 (titulo corto),caption_3,-1.68,9.0,13.0,medio
+A_sensibilidad_prompt,CLIP,caption_2 (titulo corto),caption_4,-0.7,11.0,9.0,medio
+A_sensibilidad_prompt,CLIP-L,caption_2 (titulo corto),caption_3,-0.85,4.0,13.0,medio
+A_sensibilidad_prompt,CLIP-L,caption_2 (titulo corto),caption_4,-0.82,11.0,10.0,bajo
+A_sensibilidad_prompt,LongCLIP,caption_2 (titulo corto),caption_3,-0.45,6.0,8.0,bajo
+A_sensibilidad_prompt,LongCLIP,caption_2 (titulo corto),caption_4,0.25,10.0,7.0,bajo
+C_baseline,CLIP,pares reales (R@1=0.45),pares desplazados (R@1=0.0),,,,alto
+C_baseline,CLIP-L,pares reales (R@1=0.65),pares desplazados (R@1=0.0),,,,alto
+C_baseline,LongCLIP,pares reales (R@1=0.675),pares desplazados (R@1=0.0),,,,alto

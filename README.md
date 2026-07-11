@@ -20,9 +20,9 @@ Pasos de la estrategia:
 
 Primero, comparar modelos usando el mismo caption para aislar el efecto del modelo. 
 
-Segundo, verificar que el rendimiento sea consistente en R@5 y R@10. 
+Segundo, verificar que el rendimiento sea consistente en R@1, R@5 y R@10. 
 
-Tercero, elegir el caption que mejor funciona con el modelo ganador. 
+Tercero, determinar el caption que mejor funciona con el modelo ganador. 
 
 
 

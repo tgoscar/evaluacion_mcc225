@@ -1,4 +1,4 @@
-# Image-Text Retrieval con CLIP Models
+# Image-Text Retrieval con Modelos tipo CLIP 
 
 
 

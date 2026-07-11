@@ -18,11 +18,11 @@ Métrica principal: imagen→texto R@1. Esta mide directamente la capacidad de l
 
 Pasos de la estrategia:
 
-Primero, comparar modelos usando el mismo caption para aislar el efecto del modelo. Con caption_2, LongCLIP obtiene 0.675, CLIP-L 0.650 y CLIP-B 0.450. LongCLIP es claramente superior.
+Primero, comparar modelos usando el mismo caption para aislar el efecto del modelo. 
 
-Segundo, verificar que el rendimiento sea consistente en R@5 y R@10. LongCLIP con caption_2 mantiene 0.875 en R@5 y 0.950 en R@10, mostrando estabilidad.
+Segundo, verificar que el rendimiento sea consistente en R@5 y R@10. 
 
-Tercero, elegir el caption que mejor funciona con el modelo ganador. LongCLIP rinde igual o mejor con caption_2 (0.675) comparado con caption_4 (0.675) y solo ligeramente por debajo de caption_3 (0.725), pero caption_2 es más estable y consistente.
+Tercero, elegir el caption que mejor funciona con el modelo ganador. 
 
 
 

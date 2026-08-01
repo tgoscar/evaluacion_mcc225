@@ -28,26 +28,6 @@ Con 4 vs 5 discordancias el efecto de contexto es cercano a cero: mas muestra lo
 estima con mas precision *como cero*, no lo vuelve significativo. El aporte real
 de ampliar la muestra es poder afirmar "no es falta de datos" con respaldo.
 
-## Confound declarado: como se cita el grafico segun la edicion
-
-Los caption_3 y caption_4 se construyen con la oracion del informe que comenta el
-grafico. **La forma de citar cambio entre ediciones**: desde 2026 la SBS referencia
-los graficos explicitamente en el cuerpo ("(Grafico I.1)"), mientras que en 2021 y
-2024 los inserta despues del parrafo sin citarlos.
-
-La columna `fuente_oracion` registra de donde salio cada oracion:
-
-| Edicion | cita_explicita | parrafo_previo | ninguna |
-|---|---|---|---|
-| 2021-1 | 13 | 13 | 0 |
-| 2024-2 | 11 | 17 | 1 |
-| 2026-1 | 40 | 0 | 0 |
-
-Esto es una **variable de confusion entre ediciones**: si 2026 rinde mejor, podria
-deberse a que sus captions largos estan mejor alineados con el grafico y no a
-diferencias del modelo. Se controla de dos maneras: comparando modelos **dentro**
-de cada edicion (donde la fuente es constante para todos los modelos), y
-reportando el R@1 desagregado por `fuente_oracion`.
 
 ## Archivos
 

@@ -122,37 +122,6 @@ ediciones y dejarían pares sin respuesta correcta única.
 **Variantes de imagen.** `multiedicion/images/` (originales) y
 `multiedicion/images_sin_titulo/` (sin la franja del título).
 
-## Estructura
-
-```
-├── report/                         informe final en PDF y LaTeX
-├── notebooks/
-│   ├── 01_dataset_y_validacion.ipynb        manifiesto y 9 pruebas de integridad
-│   ├── 02_cierre_numeral8.ipynb             MRR, efectos, IC, McNemar, truncación
-│   ├── 03_evaluacion_multiedicion.ipynb     los 3 modelos en las 3 ediciones
-│   ├── 04_evaluacion_composicional.ipynb    Winoground adaptado
-│   ├── 05_reranking_dos_etapas.ipynb        bi-encoder + cross-encoder
-│   └── 06_distractores_duros.ipynb          pool por sección vs aleatorio
-├── multiedicion/
-│   ├── manifest_multiedicion.csv            95 pares, 3 ediciones
-│   ├── images/  images_sin_titulo/          las dos variantes
-│   └── 06_extender_ediciones.py             extracción desde los PDF
-├── results/                        conjunto canónico (copia de la corrida definitiva)
-├── resultados_cierre_<variante>/           tablas del notebook 02
-├── resultados_multiedicion_<variante>/     R@1 y MRR por edición
-├── resultados_winoground_estrictos_<variante>/
-├── resultados_distractores_<variante>/
-├── resultados_reranking_<variante>/
-├── winoground_pares.jsonl          12 pares contrastivos (versión inicial)
-├── winoground_pares_estrictos.jsonl  40 pares, vocabulario idéntico
-├── config_variante.py              selector con_titulo / sin_titulo
-├── generar_pares_winoground.py     construye los 40 pares estrictos
-├── generar_caption4_visual.py      regenera caption_4 con un VLM
-├── tests_dataset.py                pruebas de integridad desde consola
-├── MAPA_CURSO.md                   relación con los temas de MCC225
-├── RESPUESTAS_numeral8.md          guía de preparación para la defensa
-└── requirements.txt                requirements-minimo.txt (sin GPU)
-```
 
 ## Ejecución
 

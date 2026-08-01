@@ -10,23 +10,6 @@ la SBS**, convirtiendolo en un diseno de **replicas independientes**.
 | 2026-1 | IESF Mayo 2026 (original) | 40 |
 | **Total** | | **95** |
 
-## Decision de diseno: pools separados, no un pool unico
-
-Cada edicion se evalua como una matriz de similitud **independiente**. No se
-mezclan las 95 imagenes en un solo pool, por dos razones:
-
-1. **Comparabilidad.** El R@1 depende del numero de distractores. Un pool de 95
-   no seria comparable con el de 40 ya reportado; la caida no significaria peor
-   modelo sino tarea mas dificil.
-2. **Ground truth ambiguo.** Tres titulos se repiten entre ediciones
-   ("Crecimiento economico global" en 2021 y 2024; "Sistema financiero: ratio de
-   capital global" en 2021 y 2024; "Indicadores relacionados al mercado laboral"
-   en 2024 y 2026). En un pool unico esos pares no tendrian respuesta correcta
-   unica y el modelo seria penalizado por un acierto legitimo.
-
-Con pools separados, cada edicion es una **replica del mismo experimento**, y el
-vector de aciertos pareado acumula n = 95 para las pruebas de significancia.
-
 ## Que gana y que no gana el experimento con esto
 
 **Gana precision y una prueba de generalizacion.** El IC95 pasa de +/-0.148 a

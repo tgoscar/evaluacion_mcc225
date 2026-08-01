@@ -156,9 +156,6 @@ Checkpoints: `openai/clip-vit-base-patch32`, `openai/clip-vit-large-patch14`,
 
 ## Limitaciones declaradas
 
-- **Captions del mismo informe.** `caption_3` y `caption_4` son texto literal de
-  la SBS que rodea al gráfico, así que comparten vocabulario y a veces cifras
-  impresas en la imagen. Probablemente infla todos los resultados.
 - **Cambio de convención entre ediciones.** Desde 2026 la SBS cita los gráficos
   explícitamente en el texto; antes no. La columna `fuente_oracion` lo registra y
   se controla comparando modelos *dentro* de cada edición.

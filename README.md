@@ -2,7 +2,7 @@
 
 **Oscar Benito Toledo Guerrero** · MCC225 — IA Generativa y Aprendizaje Multimodal · Período 2026-1
 
-Informe final: [`report/Toledo_Oscar_MCC225_Final.pdf`](report/Toledo_Oscar_MCC225_Final.pdf) · Tag: `final-mcc225`
+
 
 ---
 

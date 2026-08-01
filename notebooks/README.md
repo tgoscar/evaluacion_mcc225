@@ -5,9 +5,7 @@ Ejecutar en orden. Los dos primeros no necesitan GPU ni descargar modelos.
 | Notebook | Qué hace | Requiere |
 |---|---|---|
 | `01_dataset_y_validacion.ipynb` | Une las tres ediciones, revisa colisiones de títulos, declara el confound de citación y corre 9 pruebas de integridad | pandas, matplotlib, Pillow |
-| `02_cierre_numeral8.ipynb` | Evidencia de la sección 8.2: MRR, tabla de efectos, IC bootstrap, McNemar, truncación, casos | pandas, numpy |
-
-
+| `02_cierre_numeral8.ipynb` | Evidencia de la sección 8.2: MRR, tabla de efectos, IC bootstrap, McNemar, truncación, casos | pandas, numpy|
 | `03_evaluacion_multiedicion.ipynb` | Los tres modelos sobre las tres ediciones, con pools separados | GPU ~8 GB |
 | `04_evaluacion_composicional.ipynb` | Winoground adaptado: 12 pares a mano o 40 con vocabulario idéntico | GPU |
 | `05_reranking_dos_etapas.ipynb` | Bi-encoder + cross-encoder sobre vector agrupado y sobre parches | GPU |

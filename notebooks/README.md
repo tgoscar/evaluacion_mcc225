@@ -1,4 +1,4 @@
-# Notebooks del Proyecto 2 (MCC225)
+# Notebooks 
 
 Ejecutar en orden. Los dos primeros no necesitan GPU ni descargar modelos.
 
